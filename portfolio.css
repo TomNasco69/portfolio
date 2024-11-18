@@ -1,0 +1,163 @@
+body {
+    
+    /* background: linear-gradient(111deg,#000000, #00ffc3 , #deb261, #b1b490, #00ffc3, #000000); */
+    background-color: #266959;
+    background-size: 500% 400%;
+    animation: gradient-animation 36s ease infinite;
+    text-decoration: color(white);
+}
+
+main {
+    color: rgb(53, 53, 53);
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.first {
+
+
+
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+
+
+
+
+}
+
+#name {
+
+    font-family: "Lexend Zetta", sans-serif;
+
+    color: rgb(232, 232, 232);
+
+    font-size: 50%;
+    margin-left: 343px;
+    margin-top: 100px;
+    font-size: 110px;
+
+    display: flex;
+}
+
+#surname {
+    font-family: "Lexend Zetta", sans-serif;
+    color: rgb(11, 172, 57);
+    /* text-shadow: 1px 1px 2px #b1b490, 0 0 1em #00ffc3, 0 0 0.2em rgb(255, 255, 255); */
+
+    margin-left: 343px;
+    margin-top: -105px;
+    font-size: 80px;
+
+    display: flex;
+}
+
+
+#next {
+
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+
+}
+
+#next img {
+    width: 400px;
+    margin-bottom: 1px;
+}
+
+.titre {
+    color: white;
+    font-family: "Lexend Zetta", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 240px;
+}
+
+#txt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    margin-right: 550px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    color: rgb(11, 172, 57);
+}
+
+#nav {
+    
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 16%;
+    margin-top: 359px;
+   /* background-color: rgb(232, 232, 232);
+    border-radius: 8px; */
+    text-align: center;
+    background-blend-mode: color;
+  
+}
+
+#nav a {
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    width: auto;
+    margin-top: 35px;
+    font-family: "Lexend Zetta", sans-serif;
+}
+
+
+
+.qjs {
+
+    margin: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+    #tqjs{
+        color:rgb(243, 243,243);
+        font-family: "Lexend Zetta", sans-serif;
+    }
+
+    #pqjs {
+        color: rgb(11, 172, 57);
+        font-weight: bold ;
+       
+    }
+    #pqjs2 {
+        color: rgb(53, 53, 53);
+        font-weight: bold;
+    }
+}
+   
+.mpqdv {
+    margin: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: aliceblue;
+    text-size-adjust: 90%;
+    
+
+}
+
+#dvv {
+    font-family: "Lexend Zetta", sans-serif;
+
+}
